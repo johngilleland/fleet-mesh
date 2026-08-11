@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Multi-domain fleet orchestration layer: Zenoh-based vehicle telemetry, Rust/Ditto durable aggregation, CoT/TAK bridge"
 requires-python = ">=3.10"
 readme = "README.md"
-dependencies = []
+dependencies = [
+    "mavsdk"
+]
 
 [project.optional-dependencies]
 dev = [
