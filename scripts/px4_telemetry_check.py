@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
-"""Spike: confirm PX4 SITL telemetry is readable of MAVSDK. Not the real VehicleState producer -- that comes in Day 2 Commit 1."""
+"""Spike: confirm PX4 SITL telemetry is readable of MAVSDK. Not the real 
+VehicleState producer -- that comes in Day 2 Commit 1."""
 
 import asyncio
 
 from mavsdk import System
+
 
 async def main() -> None:
     drone = System()
